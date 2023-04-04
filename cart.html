@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="E-commerce website">
+
+    <title>E-commerce project</title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+<!-- navbar start here -->
+<i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper">
+            <li class="nav__list">
+                <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__list">
+                <a href="register.html" class="nav__link">Register</a>
+            </li>
+            <li class="nav__list">
+                <a href="login.html" class="nav__link">Login</a>
+            </li>
+            <li class="nav__list">
+                <a href="index.html" class="nav__link">Logout</a>
+            </li>
+            <li class="nav__list">
+                <a href="contact.html" class="nav__link">Contact</a>
+            </li>
+            <li class="nav__list">
+                <a href="profile.html" class="nav__link">
+                    <img class="profile-icon" src="./img/ah logo3-01.jpg" alt="logo">
+                </a>
+            </li>
+        </ul>
+        <ul class="nav-lower">
+            <li class="nav__list">
+                <a href="index.html" class="nav__brand nav__link">Ah Express</a>
+            </li>
+            <li class="nav__list">
+                <a href="cart.html" class="nav__link">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    cart 2 products -$124.40
+                </a>
+            </li>
+        </ul>
+    </nav>
+<!-- navbar end here -->
+
+<main>
+    <div class="cart-style">
+        <div class="cart__item">
+            <div class="cart__item-heading">
+                <h2>Shopping cart [2 items]</h2>
+                <div class="cart__item-action">
+                    <label for="select">
+                        <input type="checkbox" name="select" id="select">Select all items
+                    </label>
+                    <button class="btn">
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                    <button class="btn">Shop more</button>
+                </div>
+            </div>
+            <div class="cart__items">
+                <input type="checkbox" name="" id="">
+                <img src="./img/headphone.jpg" alt="product1" class="cart__item-img">
+                <div class="cart__item-discription">
+                    <h3 class="product__name">Sony V-4 Headphone</h3>
+                    <h4 class="product__price">Price: 399.99</h4>
+                    <p class="cart__item-shipping">Free Shipping</p>
+                </div>
+                <div class="cart__item-actions">
+                    <button class="btn"> <i class="fas fa-trash-alt"></i></button>
+                    <div>
+                        <button class="btn"> <i class="fas fa-add"></i></button>
+                        <span>3</span>
+                        <button class="btn"> <i class="fas fa-minus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart__item">
+            <div class="cart__item-heading">
+                <h2>Shopping cart [2 items]</h2>
+                <div class="cart__item-action">
+                    <label for="select">
+                        <input type="checkbox" name="select" id="select">Select all items
+                    </label>
+                    <button class="btn">
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                    <button class="btn">Shop more</button>
+                </div>
+            </div>
+            <div class="cart__items">
+                <input type="checkbox" name="" id="">
+                <img src="./img/headphone.jpg" alt="product1" class="cart__item-img">
+                <div class="cart__item-discription">
+                    <h3 class="product__name">Sony V-4 Headphone</h3>
+                    <h4 class="product__price">Price: 399.99</h4>
+                    <p class="cart__item-shipping">Free Shipping</p>
+                </div>
+                <div class="cart__item-actions">
+                    <button class="btn"> <i class="fas fa-trash-alt"></i></button>
+                    <div>
+                        <button class="btn"> <i class="fas fa-add"></i></button>
+                        <span>3</span>
+                        <button class="btn"> <i class="fas fa-minus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart__payment">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, commodi aliquam alias sed impedit minima quasi perspiciatis voluptas veritatis nobis aspernatur similique recusandae cupiditate nisi autem illo deleniti possimus a unde. Hic similique laudantium vero optio nulla pariatur ad adipisci.
+        </div>
+    </div>
+   
+</main>
+
+<!-- footer starts here -->
+<footer class="footer">
+    <div>
+        <label for="subscribe">Subscribe to Newsletter</label>
+        <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder="Your Email Address">
+        <button class="btn btn-subscribe">Subscribe</button>
+    </div>
+    <div>
+        <p>&COPY; Copyright 2023 Ah Express. Anamul Haque</p>
+    </div>
+</footer>
+<!-- footer ends here -->
+
+
+<script src="./scripts/index.js"></script>
+
+</body>
+</html>
